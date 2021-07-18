@@ -18,7 +18,7 @@ func getItemFullPath(fname string) (string, error) {
 }
 
 func GetConfigFilePath() (string, error) {
-	return getItemFullPath("config.json")
+	return "./config.json", nil
 }
 
 func getLogFilePath() (string, error) {
